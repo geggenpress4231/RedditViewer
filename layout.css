@@ -1,0 +1,29 @@
+
+body{
+    background-color: rgb(38, 39, 42);
+    font-family: 'Poppins';
+}
+
+.layout { 
+
+    display: grid;
+    grid-template-columns: 20% auto 25%;
+    grid-gap: 1em; /* add this line */
+    margin: 0 auto; 
+}
+
+.layout__right-sidebar{
+    position:fixed;
+    color: blueviolet;
+}
+
+.layout__left-sidebar{
+    position: fixed;
+}
+
+
+.layout__main {
+    padding-left: 1em;
+    border-left: 0.5em solid #ccc;
+    border-right: 0.5em solid #ccc;
+  }

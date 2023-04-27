@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RedditViewer</title>
+<link rel="stylesheet" href="layout.css">
+<link rel="stylesheet" href="brand.css">
+<link rel="stylesheet" href="sidebar_menu.css">
+</head>
+<body>
+    <div class="layout">
+        <div class="layout__left-sidebar-container">
+            <div class="layout__left-sidebar">
+
+                <img src="images/reddit.png" alt="" srcset="" class="brand">
+                <div class="sidebar-menu">
+                    <div class="sidebar-menu__item" id="home-button" onclick="getPostsHome()">
+                        <img src="images/home_icon.png" alt="" srcset="" class="sidebar-menu__item-icon"/>
+                        Home
+                    </div>
+                    <div class="sidebar-menu__item" id="trending-button" onclick="getPostsTrending()">
+                        <img src="images/trending_icon.png" alt="" srcset="" class="sidebar-menu__item-icon"/>
+                       Trending
+                    </div>
+
+                      
+                </div>
+            </div>
+            </div>
+    
+         <div class="layout__main">
+            <!-- Main -->
+            <div class="post">
+                
+            </div>
+         </div>
+        <div class="layout__right-sidebar-container">
+            <div class="layout__right-sidebar">
+                
+                <form>
+                    <label for="post_title">Post Title:</label>
+                    <input type="text" id="post_title" name="post_title"><br><br>
+                    <label for="subreddit">Subreddit:</label>
+                    <input type="text" id="subreddit" name="subreddit"><br><br>
+                    
+                    <button type="button" onclick="getTopPosts()">Get Top Posts</button>
+                  </form>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            getPostsHome();
+        }
+    </script>
+    <script src="getPosts.js"></script>
+    <script src="getPostsHome.js"></script>
+    <script src="getPostsTrending.js"></script>
+
+</body>
+</html>

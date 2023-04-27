@@ -1,0 +1,63 @@
+
+.sidebar-menu__item {
+  
+    font-size: 1.19rem;
+    color: #0F141A;
+    display: flex;
+    align-items: center;
+    color: white;
+    }
+    
+    .sidebar-menu__item--active {
+    color: #1da0f2;
+    }
+    
+    .sidebar-menu__item-icon {
+
+    height: 1.63rem;
+    margin-right: 1.33rem;
+    }
+
+    /* Make links black and underlined */
+.post{
+  padding: 1%;
+  background-color: #313866;
+  color: white;
+  margin: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255);
+}
+
+.post h2 a {
+  
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Remove default link styles */
+  .post h2 a:hover {
+    text-decoration: none;
+  }
+
+  .post p {
+    color: #ff7bbf;
+    text-decoration: none;
+  }
+
+
+   .comment-score{
+    color: palegoldenrod;
+  }
+
+  .button-1{
+    padding: 8px 20px;
+	background-color: #964ec2;
+	border-radius: 55px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 10px;
+  }
+  
+  
