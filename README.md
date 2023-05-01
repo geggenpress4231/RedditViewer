@@ -49,4 +49,4 @@ A single-page application that functions as a Reddit viewer, similar to a Twitte
 ## Contributing
 
 Feel free to submit pull requests or open issues to improve the project.
-The CSS files have been developed by [Vatsal Patel]{https:github.com/pvatsalk}
+The CSS files have been developed by [Vatsal Patel](https:github.com/pvatsalk)
